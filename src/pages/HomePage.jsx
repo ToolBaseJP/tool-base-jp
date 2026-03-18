@@ -47,58 +47,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section style={{ marginBottom: "32px" }}>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-            gap: "20px",
-          }}
-        >
-          <div
-            style={{
-              background: "#fff",
-              borderRadius: "18px",
-              padding: "20px",
-              boxShadow: "0 2px 10px rgba(0,0,0,0.08)",
-            }}
-          >
-            <h2 style={{ fontSize: "22px", marginTop: 0 }}>遊べるツール</h2>
-            <p style={{ color: "#4b5563", lineHeight: 1.7 }}>
-              ブラウザですぐ使えるゲームやツールを公開していきます。
-            </p>
-          </div>
-
-          <div
-            style={{
-              background: "#fff",
-              borderRadius: "18px",
-              padding: "20px",
-              boxShadow: "0 2px 10px rgba(0,0,0,0.08)",
-            }}
-          >
-            <h2 style={{ fontSize: "22px", marginTop: 0 }}>シンプルで使いやすい</h2>
-            <p style={{ color: "#4b5563", lineHeight: 1.7 }}>
-              迷わず使えるように、見やすく分かりやすい形を目指しています。
-            </p>
-          </div>
-
-          <div
-            style={{
-              background: "#fff",
-              borderRadius: "18px",
-              padding: "20px",
-              boxShadow: "0 2px 10px rgba(0,0,0,0.08)",
-            }}
-          >
-            <h2 style={{ fontSize: "22px", marginTop: 0 }}>今後も追加予定</h2>
-            <p style={{ color: "#4b5563", lineHeight: 1.7 }}>
-              オセロ以外にも、便利ツールや他のゲームを追加していく予定です。
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section>
         <div
           style={{
