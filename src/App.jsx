@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import ToolsPage from "./pages/ToolsPage";
 import OthelloPage from "./pages/OthelloPage";
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
